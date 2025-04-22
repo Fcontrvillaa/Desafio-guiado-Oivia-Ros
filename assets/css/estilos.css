@@ -1,0 +1,17 @@
+
+.navbar {
+    background-color: #373A3C;
+    
+}
+.texto {
+    color: white !important;
+}
+
+#trabajos {
+    background-color: #17A2B8;
+    padding: 5px;
+}
+
+.card {
+    width: 100px;
+}
