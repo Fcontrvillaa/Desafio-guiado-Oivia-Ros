@@ -3,11 +3,13 @@
     background-color: #373A3C;
     
 }
-.texto {
-    color: white !important;
-}
 
-#trabajos {
+.navbar-nav .nav-item {
+    white-space: nowrap;
+  }
+
+
+.trabajos {
     background-color: #17A2B8;
     
 }
