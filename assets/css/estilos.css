@@ -26,10 +26,6 @@
 
 
 
-#trabajos {
-    background-color: #17A2B8;
-
-}
   
 header {
     background-image: url('../img/bg-hero.jpg');
@@ -40,6 +36,10 @@ header {
   }
 
 
+#trabajos {
+    background-color: #17A2B8;
+
+}
 
 .text1 {
     padding: 30px;
@@ -68,3 +68,13 @@ header {
     text-align: left;
     font-weight: 600;
 }
+
+.card-img-container {
+    height: 200px; /* altura img */
+    overflow: hidden;
+  }
+  
+  .card-img-container img {
+    width: 100%; /* todo el ancho del contenedor */
+    height: auto; /* altura se ajusta  */
+  }
