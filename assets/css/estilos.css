@@ -1,4 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=National+Park:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*reset de css a html*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    font-family: "Raleway";
+ 
+}
+
+
+
 .navbar {
     background-color: #373A3C;
     
@@ -9,11 +25,42 @@
   }
 
 
-.trabajos {
+
+#trabajos {
     background-color: #17A2B8;
-    
+
+}
+  
+header {
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+  }
+
+
+
+.text1 {
+    padding: 30px;
+}
+.tittle {
+    padding: 30px;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-weight: 600;
 }
 
-.card {
-    width: 100px;
+.card-text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.card-title {
+    text-align: center;
+}
+.formu {
+    text-align: left;
+    font-weight: 600;
 }
